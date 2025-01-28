@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
         AOS.init({
             duration: 1000,
             once: true,
-            offset: 200,
         });
 
         // Add parallax effect to the hero section
