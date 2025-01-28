@@ -67,7 +67,28 @@ body {
     font-weight: 500;
     padding: 8px 12px;
   }
-    
+
+@media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+  
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      background: #34495e;
+      position: absolute;
+      right: 0;
+      top: 60px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .nav-links.show {
+      display: flex;
+    }
+  }
+
   /* Features Section */
   .container {
     width: 90%;
