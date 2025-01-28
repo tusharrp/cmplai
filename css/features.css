@@ -24,10 +24,6 @@ body {
     transition: all 0.3s ease-in-out;
   }
   
-  header:hover {
-    background: linear-gradient(-100deg, #1c3d5a, #0a5dbf); /* Slight darkening effect */
-  }
-  
   .navbar {
     display: flex;
     justify-content: space-between;
